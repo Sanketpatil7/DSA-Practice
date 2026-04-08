@@ -6,6 +6,3 @@ class Solution {
             if (nums[i] == nums[i - 1])
                 return true;
         }
-        return false;
-    }
-}
