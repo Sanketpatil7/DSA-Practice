@@ -2,7 +2,6 @@ import java.util.*;
 
 public class Solution {
 
-    // Function to find the insert position of x in sorted array
     public int searchInsert(int[] arr, int x) {
         int n = arr.length;
         int low = 0, high = n - 1;
